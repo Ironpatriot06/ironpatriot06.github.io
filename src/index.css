@@ -115,6 +115,14 @@ section {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+
+
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
 .project-link:hover {
   background-color: #0056b3;
   transform: translateY(-2px);
@@ -148,6 +156,9 @@ section {
   justify-content: space-between;
 }
 
+.hiu{
+  margin-top:1.2rem;
+}
 /* -------- Responsive Styles -------- */
 @media (max-width: 768px) {
   h2 {
@@ -205,4 +216,29 @@ section {
     padding: 0.4rem 0.9rem;
 
   }
+}
+
+/* Light theme (default) */
+body,
+.light {
+  background-color: #ffffff;
+  color: #111111;
+  transition: all 0.3s ease;
+}
+
+/* Dark theme */
+.dark {
+  background-color: #121212;
+  color: #eeeeee;
+}
+
+/* Optional: make cards, sections respect theme */
+.dark .card, .dark .section {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+.light .card, .light .section {
+  background-color: #f9f9f9;
+  color: #111;
 }
