@@ -15,6 +15,12 @@ export default function Projects() {
         "Created a chatbot that accepts PDFs, stores the data in MongoDB, and answers questions using Gemini + LangChain. It also generates summaries and supports file-based querying.",
     },
     {
+      title: "SmartCV – Resume Tailoring/Making Tool",
+      tech: "Python, Gemini API, Fast API, Next.Js, Tailwind CSS, PyMyPDF, Supabase",
+      description:
+        "Developed an AI-powered resume tailoring platform that analyzes resumes and job descriptions to generate optimized, ATS-friendly resume content.",
+    },
+    {
       title: "E-commerce Website – Street Sneaks",
       tech: "React.js, Tailwind CSS, Backend Integration",
       description:
