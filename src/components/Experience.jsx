@@ -3,17 +3,24 @@ export default function Experience() {
       <section>
         <h2>Experience</h2>
         <div className="timeline">
+             <div className="timeline-item">
+            <h4>IT Intern – Info Edge (India) Limited</h4>
+            <p><strong>May 2026 – Jun 2026</strong></p>
+            <p>Collaborated with the development team to design and implement features for a Governance, Risk, and Compliance (GRC) platform. Also performed QA and rigorous functional testing for an in-house ITSM tool used across multiple Info Edge businesses, including
+Naukri, 99acres, and Shiksha, identifying bugs and validating system workflows to ensure reliability and performance.</p>
+          </div>
+             <div className="timeline-item">
+            <h4>Summer Intern – Ernst & Young (EY)</h4>
+            <p><strong>May 2025 – Jun 2025</strong></p>
+            <p>Built an AI-powered travel agent prototype using LangChain and LLMs, among other things. Achieved 10% improvement in itinerary accuracy using enhanced RAG techniques. Worked with a team using github and presented the final product to the senior management</p>
+          </div>
           <div className="timeline-item">
             <h4>Development Lead – CYSCOM VIT</h4>
             <p><strong>Sep 2024 – Present</strong></p>
             <p>Led frontend redevelopment of the CYSCOM VIT website using React.js and Tailwind CSS to improve design consistency and user experience. Helped in interviewing candidates in the club recruitments process, also helped in organising events for the club. </p>
           </div>
   
-          <div className="timeline-item">
-            <h4>Summer Intern – Ernst & Young (EY)</h4>
-            <p><strong>May 2025 – Jun 2025</strong></p>
-            <p>Built an AI-powered travel agent prototype using LangChain and LLMs, among other things. Achieved 10% improvement in itinerary accuracy using enhanced RAG techniques. Worked with a team using github and presented the final product to the senior management</p>
-          </div>
+         
   
           <div className="timeline-item">
             <h4>React Developer Intern – MonoSpace</h4>
