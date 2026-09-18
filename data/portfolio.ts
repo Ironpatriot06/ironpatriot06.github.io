@@ -18,6 +18,8 @@ export const profile = {
   role: "Software Engineer",
   school: "Computer Science undergraduate at VIT Chennai",
   headline: "Building software systems across AI, infrastructure, and developer tooling.",
+  subline:
+    "Software engineer focused on backend, AI workflows, and full-stack products with emphasis on performance, reliability, and developer experience.",
   email: "ratishkapoor5@gmail.com",
   github: "https://github.com/Ironpatriot06",
   leetcode: "https://leetcode.com/u/ratishkapoor5/",
