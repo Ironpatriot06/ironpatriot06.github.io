@@ -1,4 +1,4 @@
-import { ArrowRight, FileText, Github, Linkedin } from "lucide-react";
+import { FileText, Github, Linkedin } from "lucide-react";
 import { profile } from "@/data/portfolio";
 import { LinkButton } from "@/components/ui/link-button";
 import { SystemVisualization } from "@/components/system-visualization";
@@ -23,8 +23,19 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <LinkButton href="#projects" variant="primary" icon={<ArrowRight className="h-4 w-4" />}>
-              View Projects
+            <LinkButton href={profile.github} external disabled={!profile.github} icon={<Github className="h-4 w-4" />}>
+              GitHub
+            </LinkButton>
+            <LinkButton href={profile.linkedin} external disabled={!profile.linkedin} icon={<Linkedin className="h-4 w-4" />}>
+              LinkedIn
+            </LinkButton>
+            <LinkButton
+              href={profile.leetcode}
+              external
+              disabled={!profile.leetcode}
+              icon={<img src="/leetcode.svg" alt="LeetCode" className="h-4 w-4" />}
+            >
+              LeetCode
             </LinkButton>
             <LinkButton href={profile.resume} external disabled={!profile.resume} icon={<FileText className="h-4 w-4" />}>
               Resume
